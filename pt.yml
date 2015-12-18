@@ -29,9 +29,10 @@ root: ~/Documents/OptimisDev/optimis
 
 windows:
   - editor:
-      layout: 649e,364x74,0,0{230x74,0,0,0,133x74,231,0[133x37,231,0,1,133x36,231,38,2]}
+      layout: 04c0,364x74,0,0{230x74,0,0,0,133x74,231,0[133x16,231,0,1,133x19,231,17,2,133x37,231,37,3]}
       panes:
         - vim
         - bundle exec rails s
+        - cd ../optimis-scheduling-service & bundle exec rails s -p 3001
         - git status
 
