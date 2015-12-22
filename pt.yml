@@ -34,5 +34,5 @@ windows:
         - vim
         - bundle exec rails s
         - cd ../optimis-scheduling-service & bundle exec rails s -p 3001
-        - git status
+        - git fetch
 
